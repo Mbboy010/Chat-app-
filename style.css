@@ -9,16 +9,17 @@
 body {
     background-image: url("back.png");
     background-size: cover ;
-    min-height: 700px;
+    min-height: 100vh;
 }
 .head{
  background-color: rgba(0, 0, 0,0.4) ;
  width: 100%;
- height: 100px;
+ height: 12vh;
  backdrop-filter: blur(5px );
  box-shadow: 3px 3px 15px rgba(0, 0, 0,0.2) ;
  border-bottom: 1px solid red ;
  display: flex ;
+ position: relative;
 }
 .head .friend {
  position: relative ;
@@ -51,8 +52,8 @@ body {
   .footer {
    background-color: rgba(0, 0, 0,0.4) ;
    width: 100%;
-   height: 150px ;
-   position: fixed ;
+   height: 19vh ;
+   position: relative ;
    bottom: 0;
    backdrop-filter: blur(5px);
    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);
@@ -100,7 +101,7 @@ body {
  }
  .body{
   width: 100%;
-  height: 490px;
+  height: 69vh;
   position: relative ;
   overflow-y: scroll;
   display: flex ;
