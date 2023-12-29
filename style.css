@@ -108,6 +108,7 @@ body {
   flex-direction: column ;
   align-items: center;
   justify-content: center;
+  margin-bottom: 5px;
  }
  .body .message {
   position: absolute ;
@@ -116,7 +117,6 @@ body {
   display: flex ;
   flex-direction: column;
   gap: 20px ;
-  margin-bottom: 10px;
  }
  .body .message .send-end{
   width: 100%;
